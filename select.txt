@@ -1,0 +1,285 @@
+RGD:1310179	zinc finger protein 593	GO:0006633	fatty acid biosynthetic process
+RGD:3208	mitochondrial trans-2-enoyl-CoA reductase	GO:0006633	fatty acid biosynthetic process
+RGD:70552	acyl-CoA synthetase long-chain family member 3	GO:0006633	fatty acid biosynthetic process
+RGD:1310347	fatty acid 2-hydroxylase	GO:0006633	fatty acid biosynthetic process
+RGD:70917	"delta(4)-desaturase, sphingolipid 1"	GO:0006633	fatty acid biosynthetic process
+RGD:727826	carbonyl reductase 4	GO:0006633	fatty acid biosynthetic process
+RGD:727826	carbonyl reductase 4	GO:0006633	fatty acid biosynthetic process
+RGD:727826	carbonyl reductase 4	GO:0006633	fatty acid biosynthetic process
+RGD:1587151	ELOVL fatty acid elongase 1	GO:0006633	fatty acid biosynthetic process
+RGD:727928	acyl-CoA synthetase medium-chain family member 4	GO:0006633	fatty acid biosynthetic process
+RGD:620234	malonyl-CoA decarboxylase	GO:0006633	fatty acid biosynthetic process
+RGD:620234	malonyl-CoA decarboxylase	GO:0006633	fatty acid biosynthetic process
+RGD:1563648	stearoyl-coenzyme A desaturase 4	GO:0006633	fatty acid biosynthetic process
+RGD:1305619	NADH:ubiquinone oxidoreductase subunit AB1	GO:0006633	fatty acid biosynthetic process
+RGD:621176	stearoyl-CoA desaturase	GO:0006633	fatty acid biosynthetic process
+RGD:621176	stearoyl-CoA desaturase	GO:0006633	fatty acid biosynthetic process
+RGD:621177	stearoyl-Coenzyme A desaturase 2	GO:0006633	fatty acid biosynthetic process
+RGD:70925	peroxisomal trans-2-enoyl-CoA reductase	GO:0006633	fatty acid biosynthetic process
+RGD:1303158	hydroxysteroid (17-beta) dehydrogenase 8	GO:0006633	fatty acid biosynthetic process
+RGD:1303158	hydroxysteroid (17-beta) dehydrogenase 8	GO:0006633	fatty acid biosynthetic process
+RGD:1303158	hydroxysteroid (17-beta) dehydrogenase 8	GO:0006633	fatty acid biosynthetic process
+RGD:61949	phospholipase A2 group IB	GO:0006633	fatty acid biosynthetic process
+RGD:61949	phospholipase A2 group IB	GO:0006633	fatty acid biosynthetic process
+RGD:61949	phospholipase A2 group IB	GO:0006633	fatty acid biosynthetic process
+RGD:1306698	malonyl-CoA-acyl carrier protein transacylase	GO:0006633	fatty acid biosynthetic process
+RGD:620500	acetyl-CoA carboxylase beta	GO:0006633	fatty acid biosynthetic process
+RGD:620500	acetyl-CoA carboxylase beta	GO:0006633	fatty acid biosynthetic process
+RGD:620500	acetyl-CoA carboxylase beta	GO:0006633	fatty acid biosynthetic process
+RGD:1306813	acyl-CoA synthetase medium-chain family member 1	GO:0006633	fatty acid biosynthetic process
+RGD:2018	ATP citrate lyase	GO:0006633	fatty acid biosynthetic process
+RGD:2018	ATP citrate lyase	GO:0006633	fatty acid biosynthetic process
+RGD:2007	ATP binding cassette subfamily D member 3	GO:0006633	fatty acid biosynthetic process
+RGD:2007	ATP binding cassette subfamily D member 3	GO:0006633	fatty acid biosynthetic process
+RGD:2218	"BRCA1, DNA repair associated"	GO:0006633	fatty acid biosynthetic process
+RGD:3828	HNF1 homeobox A	GO:0006633	fatty acid biosynthetic process
+RGD:3828	HNF1 homeobox A	GO:0006633	fatty acid biosynthetic process
+RGD:71057	protein kinase AMP-activated non-catalytic subunit beta 1	GO:0006633	fatty acid biosynthetic process
+RGD:71039	monoglyceride lipase	GO:0006633	fatty acid biosynthetic process
+RGD:708383	acyl-CoA synthetase medium-chain family member 2	GO:0006633	fatty acid biosynthetic process
+RGD:708367	hydroxysteroid (17-beta) dehydrogenase 12	GO:0006633	fatty acid biosynthetic process
+RGD:628876	fatty acid desaturase 3	GO:0006633	fatty acid biosynthetic process
+RGD:1309578	acyl-CoA synthetase medium-chain family member 5	GO:0006633	fatty acid biosynthetic process
+RGD:3388	protein kinase AMP-activated non-catalytic subunit gamma 1	GO:0006633	fatty acid biosynthetic process
+RGD:3387	protein kinase AMP-activated catalytic subunit alpha 1	GO:0006633	fatty acid biosynthetic process
+RGD:620665	fatty acid synthase	GO:0006633	fatty acid biosynthetic process
+RGD:620665	fatty acid synthase	GO:0006633	fatty acid biosynthetic process
+RGD:620905	protein kinase AMP-activated non-catalytic subunit beta 2	GO:0006633	fatty acid biosynthetic process
+RGD:1586037	acyl-CoA synthetase family member 3	GO:0006633	fatty acid biosynthetic process
+RGD:1586037	acyl-CoA synthetase family member 3	GO:0006633	fatty acid biosynthetic process
+RGD:620893	protein kinase AMP-activated catalytic subunit alpha 2	GO:0006633	fatty acid biosynthetic process
+RGD:3017	lipoprotein lipase	GO:0006633	fatty acid biosynthetic process
+RGD:3017	lipoprotein lipase	GO:0006633	fatty acid biosynthetic process
+RGD:3009	"lipase C, hepatic type"	GO:0006633	fatty acid biosynthetic process
+RGD:3009	"lipase C, hepatic type"	GO:0006633	fatty acid biosynthetic process
+RGD:62086	acyl-CoA synthetase medium-chain family member 3	GO:0006633	fatty acid biosynthetic process
+RGD:62086	acyl-CoA synthetase medium-chain family member 3	GO:0006633	fatty acid biosynthetic process
+RGD:621248	acetyl-CoA carboxylase alpha	GO:0006633	fatty acid biosynthetic process
+RGD:621248	acetyl-CoA carboxylase alpha	GO:0006633	fatty acid biosynthetic process
+RGD:621248	acetyl-CoA carboxylase alpha	GO:0006633	fatty acid biosynthetic process
+RGD:621248	acetyl-CoA carboxylase alpha	GO:0006633	fatty acid biosynthetic process
+RGD:620585	ELOVL fatty acid elongase 6	GO:0030497	fatty acid elongation
+RGD:1310339	3-hydroxyacyl-CoA dehydratase 4	GO:0030497	fatty acid elongation
+RGD:1310339	3-hydroxyacyl-CoA dehydratase 4	GO:0030497	fatty acid elongation
+RGD:1595507	3-hydroxyacyl-CoA dehydratase 1	GO:0030497	fatty acid elongation
+RGD:1595507	3-hydroxyacyl-CoA dehydratase 1	GO:0030497	fatty acid elongation
+RGD:620376	"trans-2,3-enoyl-CoA reductase"	GO:0030497	fatty acid elongation
+RGD:620376	"trans-2,3-enoyl-CoA reductase"	GO:0030497	fatty acid elongation
+RGD:1306337	3-hydroxyacyl-CoA dehydratase 2	GO:0030497	fatty acid elongation
+RGD:1306337	3-hydroxyacyl-CoA dehydratase 2	GO:0030497	fatty acid elongation
+RGD:1565496	3-hydroxyacyl-CoA dehydratase 3	GO:0030497	fatty acid elongation
+RGD:1565496	3-hydroxyacyl-CoA dehydratase 3	GO:0030497	fatty acid elongation
+RGD:1562128	ATP binding cassette subfamily D member 1	GO:0030497	fatty acid elongation
+RGD:620585	ELOVL fatty acid elongase 6	GO:0034625	"fatty acid elongation, monounsaturated fatty acid"
+RGD:620585	ELOVL fatty acid elongase 6	GO:0034625	"fatty acid elongation, monounsaturated fatty acid"
+RGD:1587151	ELOVL fatty acid elongase 1	GO:0034625	"fatty acid elongation, monounsaturated fatty acid"
+RGD:1587151	ELOVL fatty acid elongase 1	GO:0034625	"fatty acid elongation, monounsaturated fatty acid"
+RGD:1307263	ELOVL fatty acid elongase 3	GO:0034625	"fatty acid elongation, monounsaturated fatty acid"
+RGD:1307263	ELOVL fatty acid elongase 3	GO:0034625	"fatty acid elongation, monounsaturated fatty acid"
+RGD:1307263	ELOVL fatty acid elongase 3	GO:0034625	"fatty acid elongation, monounsaturated fatty acid"
+RGD:1308605	ELOVL fatty acid elongase 2	GO:0034625	"fatty acid elongation, monounsaturated fatty acid"
+RGD:1305630	ELOVL fatty acid elongase 4	GO:0034625	"fatty acid elongation, monounsaturated fatty acid"
+RGD:620583	ELOVL fatty acid elongase 5	GO:0034625	"fatty acid elongation, monounsaturated fatty acid"
+RGD:620583	ELOVL fatty acid elongase 5	GO:0034625	"fatty acid elongation, monounsaturated fatty acid"
+RGD:620583	ELOVL fatty acid elongase 5	GO:0034625	"fatty acid elongation, monounsaturated fatty acid"
+RGD:1310560	ELOVL fatty acid elongase 7	GO:0034625	"fatty acid elongation, monounsaturated fatty acid"
+RGD:7527008	elongation of very long chain fatty acids protein 6-like	GO:0034625	"fatty acid elongation, monounsaturated fatty acid"
+RGD:620585	ELOVL fatty acid elongase 6	GO:0034626	"fatty acid elongation, polyunsaturated fatty acid"
+RGD:1587151	ELOVL fatty acid elongase 1	GO:0034626	"fatty acid elongation, polyunsaturated fatty acid"
+RGD:1307263	ELOVL fatty acid elongase 3	GO:0034626	"fatty acid elongation, polyunsaturated fatty acid"
+RGD:1307263	ELOVL fatty acid elongase 3	GO:0034626	"fatty acid elongation, polyunsaturated fatty acid"
+RGD:1308605	ELOVL fatty acid elongase 2	GO:0034626	"fatty acid elongation, polyunsaturated fatty acid"
+RGD:1308605	ELOVL fatty acid elongase 2	GO:0034626	"fatty acid elongation, polyunsaturated fatty acid"
+RGD:1308605	ELOVL fatty acid elongase 2	GO:0034626	"fatty acid elongation, polyunsaturated fatty acid"
+RGD:1305630	ELOVL fatty acid elongase 4	GO:0034626	"fatty acid elongation, polyunsaturated fatty acid"
+RGD:620583	ELOVL fatty acid elongase 5	GO:0034626	"fatty acid elongation, polyunsaturated fatty acid"
+RGD:620583	ELOVL fatty acid elongase 5	GO:0034626	"fatty acid elongation, polyunsaturated fatty acid"
+RGD:620583	ELOVL fatty acid elongase 5	GO:0034626	"fatty acid elongation, polyunsaturated fatty acid"
+RGD:1310560	ELOVL fatty acid elongase 7	GO:0034626	"fatty acid elongation, polyunsaturated fatty acid"
+RGD:1310560	ELOVL fatty acid elongase 7	GO:0034626	"fatty acid elongation, polyunsaturated fatty acid"
+RGD:620585	ELOVL fatty acid elongase 6	GO:0019367	"fatty acid elongation, saturated fatty acid"
+RGD:620585	ELOVL fatty acid elongase 6	GO:0019367	"fatty acid elongation, saturated fatty acid"
+RGD:620585	ELOVL fatty acid elongase 6	GO:0019367	"fatty acid elongation, saturated fatty acid"
+RGD:1587151	ELOVL fatty acid elongase 1	GO:0019367	"fatty acid elongation, saturated fatty acid"
+RGD:1587151	ELOVL fatty acid elongase 1	GO:0019367	"fatty acid elongation, saturated fatty acid"
+RGD:1307263	ELOVL fatty acid elongase 3	GO:0019367	"fatty acid elongation, saturated fatty acid"
+RGD:1307263	ELOVL fatty acid elongase 3	GO:0019367	"fatty acid elongation, saturated fatty acid"
+RGD:1307263	ELOVL fatty acid elongase 3	GO:0019367	"fatty acid elongation, saturated fatty acid"
+RGD:1308605	ELOVL fatty acid elongase 2	GO:0019367	"fatty acid elongation, saturated fatty acid"
+RGD:1305630	ELOVL fatty acid elongase 4	GO:0019367	"fatty acid elongation, saturated fatty acid"
+RGD:1305630	ELOVL fatty acid elongase 4	GO:0019367	"fatty acid elongation, saturated fatty acid"
+RGD:620583	ELOVL fatty acid elongase 5	GO:0019367	"fatty acid elongation, saturated fatty acid"
+RGD:1310560	ELOVL fatty acid elongase 7	GO:0019367	"fatty acid elongation, saturated fatty acid"
+RGD:1310560	ELOVL fatty acid elongase 7	GO:0019367	"fatty acid elongation, saturated fatty acid"
+RGD:1310560	ELOVL fatty acid elongase 7	GO:0019367	"fatty acid elongation, saturated fatty acid"
+RGD:7527008	elongation of very long chain fatty acids protein 6-like	GO:0019367	"fatty acid elongation, saturated fatty acid"
+RGD:620585	ELOVL fatty acid elongase 6	GO:0042759	long-chain fatty acid biosynthetic process
+RGD:620585	ELOVL fatty acid elongase 6	GO:0042759	long-chain fatty acid biosynthetic process
+RGD:3354	proteolipid protein 1	GO:0042759	long-chain fatty acid biosynthetic process
+RGD:3354	proteolipid protein 1	GO:0042759	long-chain fatty acid biosynthetic process
+RGD:11514364	protein quaking-like	GO:0042759	long-chain fatty acid biosynthetic process
+RGD:69410	N-acylsphingosine amidohydrolase 2	GO:0042759	long-chain fatty acid biosynthetic process
+RGD:1584886	quaking	GO:0042759	long-chain fatty acid biosynthetic process
+RGD:7527008	elongation of very long chain fatty acids protein 6-like	GO:0042759	long-chain fatty acid biosynthetic process
+RGD:3143	myosin VA	GO:0042759	long-chain fatty acid biosynthetic process
+RGD:3143	myosin VA	GO:0042759	long-chain fatty acid biosynthetic process
+RGD:628856	acyl-CoA thioesterase 7	GO:0051792	medium-chain fatty acid biosynthetic process
+RGD:628856	acyl-CoA thioesterase 7	GO:0051792	medium-chain fatty acid biosynthetic process
+RGD:628856	acyl-CoA thioesterase 7	GO:0051792	medium-chain fatty acid biosynthetic process
+RGD:1310988	abhydrolase domain containing 1	GO:0051792	medium-chain fatty acid biosynthetic process
+RGD:621115	oleoyl-ACP hydrolase	GO:0051792	medium-chain fatty acid biosynthetic process
+RGD:621115	oleoyl-ACP hydrolase	GO:0051792	medium-chain fatty acid biosynthetic process
+RGD:1311389	abhydrolase domain containing 2	GO:0051792	medium-chain fatty acid biosynthetic process
+RGD:1311092	"3-oxoacyl-ACP synthase, mitochondrial"	GO:0051792	medium-chain fatty acid biosynthetic process
+RGD:1311092	"3-oxoacyl-ACP synthase, mitochondrial"	GO:0051792	medium-chain fatty acid biosynthetic process
+RGD:1310655	abhydrolase domain containing 3	GO:0051792	medium-chain fatty acid biosynthetic process
+RGD:1595370	similar to stearoyl-coenzyme A desaturase 3	GO:1903966	monounsaturated fatty acid biosynthetic process
+RGD:1563648	stearoyl-coenzyme A desaturase 4	GO:1903966	monounsaturated fatty acid biosynthetic process
+RGD:1563648	stearoyl-coenzyme A desaturase 4	GO:1903966	monounsaturated fatty acid biosynthetic process
+RGD:621176	stearoyl-CoA desaturase	GO:1903966	monounsaturated fatty acid biosynthetic process
+RGD:621176	stearoyl-CoA desaturase	GO:1903966	monounsaturated fatty acid biosynthetic process
+RGD:621177	stearoyl-Coenzyme A desaturase 2	GO:1903966	monounsaturated fatty acid biosynthetic process
+RGD:621177	stearoyl-Coenzyme A desaturase 2	GO:1903966	monounsaturated fatty acid biosynthetic process
+RGD:70903	apolipoprotein A5	GO:0045723	positive regulation of fatty acid biosynthetic process
+RGD:70903	apolipoprotein A5	GO:0045723	positive regulation of fatty acid biosynthetic process
+RGD:70903	apolipoprotein A5	GO:0045723	positive regulation of fatty acid biosynthetic process
+RGD:1303258	MID1 interacting protein 1	GO:0045723	positive regulation of fatty acid biosynthetic process
+RGD:1303258	MID1 interacting protein 1	GO:0045723	positive regulation of fatty acid biosynthetic process
+RGD:1585897	lysophosphatidylglycerol acyltransferase 1	GO:0045723	positive regulation of fatty acid biosynthetic process
+RGD:3560	regucalcin	GO:0045723	positive regulation of fatty acid biosynthetic process
+RGD:2135	apolipoprotein C2	GO:0045723	positive regulation of fatty acid biosynthetic process
+RGD:2135	apolipoprotein C2	GO:0045723	positive regulation of fatty acid biosynthetic process
+RGD:2132	apolipoprotein A4	GO:0045723	positive regulation of fatty acid biosynthetic process
+RGD:2132	apolipoprotein A4	GO:0045723	positive regulation of fatty acid biosynthetic process
+RGD:2132	apolipoprotein A4	GO:0045723	positive regulation of fatty acid biosynthetic process
+RGD:2069	angiotensinogen	GO:0045723	positive regulation of fatty acid biosynthetic process
+RGD:620583	ELOVL fatty acid elongase 5	GO:0045723	positive regulation of fatty acid biosynthetic process
+RGD:620583	ELOVL fatty acid elongase 5	GO:0045723	positive regulation of fatty acid biosynthetic process
+RGD:1309764	"solute carrier family 45, member 3"	GO:0045723	positive regulation of fatty acid biosynthetic process
+RGD:1309764	"solute carrier family 45, member 3"	GO:0045723	positive regulation of fatty acid biosynthetic process
+RGD:61906	"nuclear receptor subfamily 1, group H, member 2"	GO:0045723	positive regulation of fatty acid biosynthetic process
+RGD:61906	"nuclear receptor subfamily 1, group H, member 2"	GO:0045723	positive regulation of fatty acid biosynthetic process
+RGD:61909	"nuclear receptor subfamily 1, group H, member 3"	GO:0045723	positive regulation of fatty acid biosynthetic process
+UniProtKB:A0A0G2K6J8	Uncharacterized protein	GO:0045723	positive regulation of fatty acid biosynthetic process
+RGD:2810	"hepatocyte nuclear factor 4, alpha"	GO:0045723	positive regulation of fatty acid biosynthetic process
+RGD:620400	MLX interacting protein-like	GO:0045723	positive regulation of fatty acid biosynthetic process
+RGD:628847	mitogen-activated protein kinase 9	GO:0031394	positive regulation of prostaglandin biosynthetic process
+RGD:67366	phospholipase A2 group IVA	GO:0031394	positive regulation of prostaglandin biosynthetic process
+RGD:2185	arginine vasopressin receptor 1A	GO:0031394	positive regulation of prostaglandin biosynthetic process
+RGD:2184	arginine vasopressin	GO:0031394	positive regulation of prostaglandin biosynthetic process
+RGD:2118	annexin A1	GO:0031394	positive regulation of prostaglandin biosynthetic process
+RGD:2118	annexin A1	GO:0031394	positive regulation of prostaglandin biosynthetic process
+RGD:620349	prostaglandin-endoperoxide synthase 2	GO:0031394	positive regulation of prostaglandin biosynthetic process
+RGD:620349	prostaglandin-endoperoxide synthase 2	GO:0031394	positive regulation of prostaglandin biosynthetic process
+RGD:620349	prostaglandin-endoperoxide synthase 2	GO:0031394	positive regulation of prostaglandin biosynthetic process
+RGD:69244	ATP binding cassette subfamily D member 2	GO:2001280	positive regulation of unsaturated fatty acid biosynthetic process
+RGD:69244	ATP binding cassette subfamily D member 2	GO:2001280	positive regulation of unsaturated fatty acid biosynthetic process
+RGD:1562128	ATP binding cassette subfamily D member 1	GO:2001280	positive regulation of unsaturated fatty acid biosynthetic process
+RGD:1562128	ATP binding cassette subfamily D member 1	GO:2001280	positive regulation of unsaturated fatty acid biosynthetic process
+RGD:1305489	acyl-CoA synthetase short-chain family member 2	GO:0019542	propionate biosynthetic process
+RGD:1306246	acyl-CoA synthetase short-chain family member 1	GO:0019542	propionate biosynthetic process
+RGD:69251	hematopoietic prostaglandin D synthase	GO:0001516	prostaglandin biosynthetic process
+RGD:3433	prostaglandin D2 synthase	GO:0001516	prostaglandin biosynthetic process
+RGD:3433	prostaglandin D2 synthase	GO:0001516	prostaglandin biosynthetic process
+RGD:3433	prostaglandin D2 synthase	GO:0001516	prostaglandin biosynthetic process
+RGD:70927	microsomal glutathione S-transferase 1	GO:0001516	prostaglandin biosynthetic process
+RGD:621163	macrophage migration inhibitory factor	GO:0001516	prostaglandin biosynthetic process
+RGD:1308251	peroxiredoxin like 2B	GO:0001516	prostaglandin biosynthetic process
+RGD:1308251	peroxiredoxin like 2B	GO:0001516	prostaglandin biosynthetic process
+RGD:1308251	peroxiredoxin like 2B	GO:0001516	prostaglandin biosynthetic process
+RGD:2313	CD74 molecule	GO:0001516	prostaglandin biosynthetic process
+RGD:2313	CD74 molecule	GO:0001516	prostaglandin biosynthetic process
+RGD:2532	endothelin 1	GO:0001516	prostaglandin biosynthetic process
+RGD:2532	endothelin 1	GO:0001516	prostaglandin biosynthetic process
+RGD:2533	endothelin 2	GO:0001516	prostaglandin biosynthetic process
+RGD:2533	endothelin 2	GO:0001516	prostaglandin biosynthetic process
+RGD:2533	endothelin 2	GO:0001516	prostaglandin biosynthetic process
+RGD:2533	endothelin 2	GO:0001516	prostaglandin biosynthetic process
+RGD:1593370	"phospholipase A2, group IVF"	GO:0001516	prostaglandin biosynthetic process
+RGD:3826	thromboxane A synthase 1	GO:0001516	prostaglandin biosynthetic process
+RGD:1359350	Prostaglandin E synthase 3-like 1	GO:0001516	prostaglandin biosynthetic process
+RGD:1561913	prostaglandin E synthase 3	GO:0001516	prostaglandin biosynthetic process
+RGD:1561913	prostaglandin E synthase 3	GO:0001516	prostaglandin biosynthetic process
+RGD:1561913	prostaglandin E synthase 3	GO:0001516	prostaglandin biosynthetic process
+RGD:1561913	prostaglandin E synthase 3	GO:0001516	prostaglandin biosynthetic process
+RGD:1561913	prostaglandin E synthase 3	GO:0001516	prostaglandin biosynthetic process
+RGD:1561913	prostaglandin E synthase 3	GO:0001516	prostaglandin biosynthetic process
+RGD:1561913	prostaglandin E synthase 3	GO:0001516	prostaglandin biosynthetic process
+RGD:1311444	patatin-like phospholipase domain containing 8	GO:0001516	prostaglandin biosynthetic process
+RGD:1311444	patatin-like phospholipase domain containing 8	GO:0001516	prostaglandin biosynthetic process
+RGD:3439	prostaglandin-endoperoxide synthase 1	GO:0001516	prostaglandin biosynthetic process
+RGD:3439	prostaglandin-endoperoxide synthase 1	GO:0001516	prostaglandin biosynthetic process
+RGD:3439	prostaglandin-endoperoxide synthase 1	GO:0001516	prostaglandin biosynthetic process
+RGD:3438	prostaglandin I2 synthase	GO:0001516	prostaglandin biosynthetic process
+RGD:3438	prostaglandin I2 synthase	GO:0001516	prostaglandin biosynthetic process
+RGD:3438	prostaglandin I2 synthase	GO:0001516	prostaglandin biosynthetic process
+RGD:3438	prostaglandin I2 synthase	GO:0001516	prostaglandin biosynthetic process
+RGD:3438	prostaglandin I2 synthase	GO:0001516	prostaglandin biosynthetic process
+RGD:620349	prostaglandin-endoperoxide synthase 2	GO:0001516	prostaglandin biosynthetic process
+RGD:620349	prostaglandin-endoperoxide synthase 2	GO:0001516	prostaglandin biosynthetic process
+UniProtKB:A0A0G2JYL7	Uncharacterized protein	GO:0001516	prostaglandin biosynthetic process
+RGD:62076	prostaglandin E synthase	GO:0001516	prostaglandin biosynthetic process
+RGD:62076	prostaglandin E synthase	GO:0001516	prostaglandin biosynthetic process
+RGD:62076	prostaglandin E synthase	GO:0001516	prostaglandin biosynthetic process
+RGD:62076	prostaglandin E synthase	GO:0001516	prostaglandin biosynthetic process
+RGD:1305373	eukaryotic translation initiation factor 6	GO:0042304	regulation of fatty acid biosynthetic process
+RGD:1305373	eukaryotic translation initiation factor 6	GO:0042304	regulation of fatty acid biosynthetic process
+RGD:1305373	eukaryotic translation initiation factor 6	GO:0042304	regulation of fatty acid biosynthetic process
+RGD:69061	pyruvate dehydrogenase kinase 4	GO:0042304	regulation of fatty acid biosynthetic process
+RGD:69061	pyruvate dehydrogenase kinase 4	GO:0042304	regulation of fatty acid biosynthetic process
+RGD:69061	pyruvate dehydrogenase kinase 4	GO:0042304	regulation of fatty acid biosynthetic process
+RGD:69061	pyruvate dehydrogenase kinase 4	GO:0042304	regulation of fatty acid biosynthetic process
+RGD:69061	pyruvate dehydrogenase kinase 4	GO:0042304	regulation of fatty acid biosynthetic process
+RGD:69061	pyruvate dehydrogenase kinase 4	GO:0042304	regulation of fatty acid biosynthetic process
+RGD:2709	gastric inhibitory polypeptide	GO:0042304	regulation of fatty acid biosynthetic process
+RGD:1309378	SREBF chaperone	GO:0042304	regulation of fatty acid biosynthetic process
+RGD:1309378	SREBF chaperone	GO:0042304	regulation of fatty acid biosynthetic process
+RGD:70997	fatty acid binding protein 5	GO:0031392	regulation of prostaglandin biosynthetic process
+RGD:1311092	"3-oxoacyl-ACP synthase, mitochondrial"	GO:0051790	short-chain fatty acid biosynthetic process
+RGD:1311092	"3-oxoacyl-ACP synthase, mitochondrial"	GO:0051790	short-chain fatty acid biosynthetic process
+RGD:620585	ELOVL fatty acid elongase 6	GO:0006636	unsaturated fatty acid biosynthetic process
+RGD:1587151	ELOVL fatty acid elongase 1	GO:0006636	unsaturated fatty acid biosynthetic process
+RGD:1307263	ELOVL fatty acid elongase 3	GO:0006636	unsaturated fatty acid biosynthetic process
+RGD:1308605	ELOVL fatty acid elongase 2	GO:0006636	unsaturated fatty acid biosynthetic process
+RGD:621176	stearoyl-CoA desaturase	GO:0006636	unsaturated fatty acid biosynthetic process
+RGD:621176	stearoyl-CoA desaturase	GO:0006636	unsaturated fatty acid biosynthetic process
+RGD:621176	stearoyl-CoA desaturase	GO:0006636	unsaturated fatty acid biosynthetic process
+RGD:1305630	ELOVL fatty acid elongase 4	GO:0006636	unsaturated fatty acid biosynthetic process
+RGD:621678	fatty acid desaturase 1	GO:0006636	unsaturated fatty acid biosynthetic process
+RGD:621678	fatty acid desaturase 1	GO:0006636	unsaturated fatty acid biosynthetic process
+RGD:621678	fatty acid desaturase 1	GO:0006636	unsaturated fatty acid biosynthetic process
+RGD:68339	fatty acid desaturase 2	GO:0006636	unsaturated fatty acid biosynthetic process
+RGD:620583	ELOVL fatty acid elongase 5	GO:0006636	unsaturated fatty acid biosynthetic process
+RGD:71002	"2,4-dienoyl-CoA reductase 2"	GO:0006636	unsaturated fatty acid biosynthetic process
+RGD:1310560	ELOVL fatty acid elongase 7	GO:0006636	unsaturated fatty acid biosynthetic process
+RGD:7527008	elongation of very long chain fatty acids protein 6-like	GO:0006636	unsaturated fatty acid biosynthetic process
+RGD:620585	ELOVL fatty acid elongase 6	GO:0042761	very long-chain fatty acid biosynthetic process
+RGD:1310339	3-hydroxyacyl-CoA dehydratase 4	GO:0042761	very long-chain fatty acid biosynthetic process
+RGD:1310339	3-hydroxyacyl-CoA dehydratase 4	GO:0042761	very long-chain fatty acid biosynthetic process
+RGD:1587151	ELOVL fatty acid elongase 1	GO:0042761	very long-chain fatty acid biosynthetic process
+RGD:1587151	ELOVL fatty acid elongase 1	GO:0042761	very long-chain fatty acid biosynthetic process
+RGD:1307263	ELOVL fatty acid elongase 3	GO:0042761	very long-chain fatty acid biosynthetic process
+RGD:1307263	ELOVL fatty acid elongase 3	GO:0042761	very long-chain fatty acid biosynthetic process
+RGD:1307263	ELOVL fatty acid elongase 3	GO:0042761	very long-chain fatty acid biosynthetic process
+RGD:1595507	3-hydroxyacyl-CoA dehydratase 1	GO:0042761	very long-chain fatty acid biosynthetic process
+RGD:1595507	3-hydroxyacyl-CoA dehydratase 1	GO:0042761	very long-chain fatty acid biosynthetic process
+RGD:1308605	ELOVL fatty acid elongase 2	GO:0042761	very long-chain fatty acid biosynthetic process
+RGD:1308605	ELOVL fatty acid elongase 2	GO:0042761	very long-chain fatty acid biosynthetic process
+RGD:1308605	ELOVL fatty acid elongase 2	GO:0042761	very long-chain fatty acid biosynthetic process
+RGD:620376	"trans-2,3-enoyl-CoA reductase"	GO:0042761	very long-chain fatty acid biosynthetic process
+RGD:620376	"trans-2,3-enoyl-CoA reductase"	GO:0042761	very long-chain fatty acid biosynthetic process
+RGD:620376	"trans-2,3-enoyl-CoA reductase"	GO:0042761	very long-chain fatty acid biosynthetic process
+RGD:1305630	ELOVL fatty acid elongase 4	GO:0042761	very long-chain fatty acid biosynthetic process
+RGD:1305630	ELOVL fatty acid elongase 4	GO:0042761	very long-chain fatty acid biosynthetic process
+RGD:68339	fatty acid desaturase 2	GO:0042761	very long-chain fatty acid biosynthetic process
+RGD:620583	ELOVL fatty acid elongase 5	GO:0042761	very long-chain fatty acid biosynthetic process
+RGD:620583	ELOVL fatty acid elongase 5	GO:0042761	very long-chain fatty acid biosynthetic process
+RGD:620583	ELOVL fatty acid elongase 5	GO:0042761	very long-chain fatty acid biosynthetic process
+RGD:1306337	3-hydroxyacyl-CoA dehydratase 2	GO:0042761	very long-chain fatty acid biosynthetic process
+RGD:1306337	3-hydroxyacyl-CoA dehydratase 2	GO:0042761	very long-chain fatty acid biosynthetic process
+RGD:1310560	ELOVL fatty acid elongase 7	GO:0042761	very long-chain fatty acid biosynthetic process
+RGD:1310560	ELOVL fatty acid elongase 7	GO:0042761	very long-chain fatty acid biosynthetic process
+RGD:1310560	ELOVL fatty acid elongase 7	GO:0042761	very long-chain fatty acid biosynthetic process
+RGD:1304608	"trans-2,3-enoyl-CoA reductase-like"	GO:0042761	very long-chain fatty acid biosynthetic process
+RGD:1565496	3-hydroxyacyl-CoA dehydratase 3	GO:0042761	very long-chain fatty acid biosynthetic process
+RGD:1565496	3-hydroxyacyl-CoA dehydratase 3	GO:0042761	very long-chain fatty acid biosynthetic process

@@ -1,0 +1,190 @@
+Zfp593	
+Mecr	
+Mecr	
+"Acsl3 Acs3, Facl3"	
+Fa2h Faah	
+"Degs1 Degs, Des1"	
+Cbr4	
+Elovl1	
+Elovl1	
+Elovl1	
+"Elovl1 ELOVL1, LOC679532, rCG_50316"	
+Acsm4 Omacs	
+Mlycd	
+Scd4	
+Scd4	
+"Ndufab1 Ndufab1_predicted, rCG_40178"	
+Scd1 Scd	
+Scd2 rCG_57510	
+Scd2	
+Pecr	
+Pecr	
+Pecr	
+Pecr	
+Hsd17b8	
+Hsd17b8	
+Hsd17b8	
+Hsd17b8	
+Pla2g1b	
+Mcat	
+Acacb	
+Acacb	
+Acacb	
+Acacb	
+Acacb	
+Acsm1 Bucs1	
+Acly	
+Acly rCG_33241	
+Acly rCG_33241	
+Acly	
+"Abcd3 Pmp70, Pxmp1"	
+Brca1 rCG_34321	
+Brca1	
+"Hnf1a Hnf-1, Hnf-1a, Tcf1"	
+Prkab1	
+Mgll	
+Mgll Mgl2	
+"Acsm2 Acsm2a, LOC246263, rCG_39286"	
+"Acsm1 Acsm2, Acsm2a"	
+Acsm1 Acsm2	
+"Acsm1 Acsm2, Bucs1"	
+Acsm2 Ks	
+Hsd17b12	
+Hsd17b12	
+Fads3	
+Fads3 rCG_47644	
+Acsm5 Macs3	
+Acsm5 RGD1309578	
+Kmt2d Prkag1	
+Prkag1 Kmt2d	
+Prkag1	
+Prkaa1 Ampk1	
+Fasn	
+Prkab2 rCG_51714	
+Prkab2	
+Prkab2	
+"Acsf3 LOC498962, rCG_51205"	
+Prkaa2 rCG_53426	
+"Prkaa2 Ampk, Ampk2"	
+Lpl	
+Lipc	
+Lipc	
+Lipc	
+Lipc rCG_56713	
+Acsm3 Sah	
+Acaca	
+Acaca	
+Acaca Acac	
+"Elovl6 Face, Lce"	
+"Hacd4 Ptplad2, Ptplad2_predicted, rCG_23010"	
+Hacd1 Ptpla	
+Hacd1 Ptpla	
+Tecr	
+Tecr Gpsn2	
+Hacd2	
+"Hacd3 LOC100365676, RGD1565496_predicted, rCG_58140"	
+"Abcd1 Abcd1_predicted, rCG_43826"	
+"Elovl3 ELOVL3, Elovl3_predicted, rCG_57640"	
+Elovl2 Ssc2	
+"Elovl4 ELOVL4, Elovl4_predicted, rCG_25172"	
+Elovl5	
+Elovl7	
+Elovl7	
+"Plp1 Plp, rCG_56847"	
+Plp1 Plp	
+LOC108348175 Qk	
+LOC108348175 Qk	
+LOC108348175 Qk	
+LOC108348175 Qk	
+Asah2	
+Qk	
+Qki Qk	
+Myo5a	
+Myo5a	
+Myo5a	
+Myo5a	
+Acot7 rCG_30783	
+Acot7 Bach	
+Abhd1	
+"Olah Mch, Thedc1"	
+Abhd2	
+"Abhd2 Abhd2_predicted, rCG_24558"	
+Oxsm rCG_42150	
+"Abhd3 Abhd3_predicted, rCG_41285"	
+LOC681458	
+Apoa5 rCG_58386	
+Apoa5 Rap3	
+"Mid1ip1 Mig12, slap, rCG_42909"	
+Mid1ip1 Mig12	
+Lpgat1 rCG_20137	
+Rgn Smp30	
+"Apoc2 Apoc2_predicted, rCG_54652"	
+Apoa4	
+Apoa4	
+Agt Serpina8	
+Slc45a3	
+Nr1h2 Lxrb	
+Nr1h3 rCG_27182	
+Nr1h3 Lxra	
+Hnf4a rCG_32146	
+Hnf4a	
+Hnf4a	
+Hnf4a Hnf4alpha	
+Hnf4a Hnf4alpha	
+Hnf4a	
+"Hnf4a Hnf-4, Hnf4, Nr2a1, Tcf14"	
+Mlxipl Wbscr14	
+Mapk9	
+Mapk9 rCG_34039	
+"Mapk9 Jnk2, Prkm9"	
+Mapk9	
+"Pla2g4a Cpla2, Pla2g4"	
+Pla2g4a rCG_46421	
+Avpr1a	
+Avpr1a	
+Avp	
+Anxa1 Anx1	
+"Ptgs2 Cox-2, Cox2"	
+Abcd2 rCG_59227	
+"Abcd2 Aldr, Aldrp"	
+"Acss2 Acss2_predicted, rCG_37495"	
+Acss1 rCG_37494	
+"Hpgds Gsts, Pgds, Ptgds2"	
+Ptgds	
+Mgst1 rCG_29562	
+Mgst1 Gst12	
+"Mif LOC103694877, rCG_60731"	
+Mif	
+Fam213b	
+Cd74	
+Cd74 rCG_46667	
+Edn1	
+Edn2 rCG_31484	
+Edn2	
+Pla2g4f	
+"Tbxas1 Cyp5, Cyp5a1"	
+Ptges3l1 LOC367808	
+Ptges3 rCG_42522	
+Ptges3 Tebp	
+Pnpla8	
+Pnpla8	
+Pnpla8	
+Pnpla8	
+"Pnpla8 RGD1311444_predicted, rCG_62050"	
+"Ptgs1 Cox-1, Cox1"	
+Ptgs1 rCG_45926	
+Ptgis Cyp8	
+"Ptges iPGES, PGES, PIG12, rCG_45741"	
+"Eif6 EIF6, ITGB4BP"	
+Eif6 Itgb4bp	
+Pdk4 rCG_28075	
+Pdk4	
+Gip	
+Scap	
+Fabp5	
+Fads1	
+Fads2	
+Fads2 Fadsd6	
+"Decr2 Nme4, Rab11fip3"	
+Decr2	
+Tecrl	

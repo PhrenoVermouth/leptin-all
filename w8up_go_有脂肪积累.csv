@@ -1,0 +1,7 @@
+﻿Category,Term,PValue,LogPvalue
+GOTERM_BP_DIRECT,GO:0042493~response to drug,1.05E-04,3.978006765
+GOTERM_BP_DIRECT,GO:0019915~lipid storage,3.20E-04,3.494599524
+GOTERM_BP_DIRECT,GO:0001523~retinoid metabolic process,3.79E-04,3.421732778
+GOTERM_BP_DIRECT,GO:0006749~glutathione metabolic process,4.49E-04,3.347884235
+GOTERM_BP_DIRECT,GO:0008202~steroid metabolic process,6.25E-04,3.204067931
+GOTERM_BP_DIRECT,GO:0042573~retinoic acid metabolic process,9.29E-04,3.03184673

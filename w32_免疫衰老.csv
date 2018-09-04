@@ -1,0 +1,7 @@
+﻿Category,Term,PValue,LogPvalue
+GOTERM_BP_DIRECT,GO:0032496~response to lipopolysaccharide,2.89E-10,9.539756579
+GOTERM_BP_DIRECT,GO:0006954~inflammatory response,7.96E-10,9.099117167
+GOTERM_BP_DIRECT,GO:0030593~neutrophil chemotaxis,4.37E-09,8.359391328
+GOTERM_BP_DIRECT,GO:0071347~cellular response to interleukin-1,5.85E-09,8.232953865
+GOTERM_BP_DIRECT,GO:0006915~apoptotic process,1.51E-07,6.820452455
+GOTERM_BP_DIRECT,GO:0043065~positive regulation of apoptotic process,4.23E-07,6.373388479

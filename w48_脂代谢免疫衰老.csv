@@ -1,0 +1,8 @@
+﻿Category,Term,PValue,LogPvalue
+GOTERM_BP_DIRECT,GO:0042981~regulation of apoptotic process,5.08E-05,4.293954517
+GOTERM_BP_DIRECT,GO:0071347~cellular response to interleukin-1,5.44E-05,4.26460638
+GOTERM_BP_DIRECT,GO:0032496~response to lipopolysaccharide,1.14E-04,3.942642579
+GOTERM_BP_DIRECT,GO:0042493~response to drug,8.11E-04,3.090813183
+GOTERM_BP_DIRECT,GO:0006915~apoptotic process,0.001095671,2.960319805
+GOTERM_BP_DIRECT,GO:0060416~response to growth hormone,0.001119845,2.950842192
+GOTERM_BP_DIRECT,GO:0071222~cellular response to lipopolysaccharide,0.001400442,2.853734998
