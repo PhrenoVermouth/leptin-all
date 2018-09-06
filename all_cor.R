@@ -9,6 +9,7 @@ library(stringr)
 library(ggsci)
 library(data.table)
 library(pheatmap)
+library(dplyr)
 #library(WGCNA)
 
 ########################################
@@ -141,7 +142,7 @@ for(i in (5:9)){
   p<-p+labs(x="TSNE 1",y="TSNE 2")  + gran_theme +  scale_color_manual(values=c("LightGray","LightCyan","Cyan","DeepSkyBlue","Green1"))  
   ggsave(paste('TSNE_',i,'_all_newcolor.pdf'),dpi = 300) 
 }
-
+ 
 ######################################
 ############ Equalization for Reps
 ######################################
@@ -303,6 +304,11 @@ write.csv(diff_up,"rat_diff_up.csv",quote = F,row.names = F)
 write.csv(diff_down,"rat_diff_down.csv",quote = F,row.names = F)
 
 ##############For evolution analysis
+library(qpcR)
+all_diff <- qpcR:::cbind.na(diff_w4_up,diff_w4_down,diff_w8_up,diff_w8_down,diff_w16_up,diff_w16_down,
+                            diff_w32_up,diff_w32_down,diff_w48_up,diff_w48_down)
+write.csv(all_diff,"rat_all_diff.csv",quote = F,row.names = F)
+
 write.csv(sort(c(diff_w4_up,diff_w4_down)),"rat_diff_w4.csv",quote = F,row.names = F)
 write.csv(sort(c(diff_w8_up,diff_w8_down)),"rat_diff_w8.csv",quote = F,row.names = F)
 write.csv(sort(c(diff_w16_up,diff_w16_down)),"rat_diff_w16.csv",quote = F,row.names = F)
