@@ -16,7 +16,7 @@ library(dplyr)
 ################# pre-define functions
 ########################################
 gran_theme <- theme_classic() +
-  theme(legend.title =element_blank(),legend.text = element_text( size = 14, face = "bold"),axis.title =element_text(size=14,face = "bold") ,axis.text=element_text(size=16))
+  theme(legend.title =element_blank(),legend.text = element_text( size = 14, face = "bold"),axis.title =element_text(size=14,face = "bold") ,axis.text=element_text(size=14))
 
 depict_vol_plot <- function(deseq2_res,pass_title){
   deseq2_res <- na.omit(as.data.frame(deseq2_res)) ###Exclude lines with 'NA' qvalue.
@@ -70,8 +70,8 @@ david2gp <- function(csv,title_def) {
 ########################################
 #################### Set-up 
 ########################################
-inflam_geneset <- as.character(read.csv("positive_regulation_of_inflammatory_response.txt",col.names = "V1")$V1)
-fat_geneset <- as.character(read.csv("fatty_acid_biosynthetic_process.txt",col.names = "V1")$V1)
+inflam_geneset <- as.character(read.csv("inflam_geneset_LP.csv",col.names = "V1")$V1)
+fat_geneset <- as.character(read.csv("fat_geneset_LP.csv",col.names = "V1")$V1)
 rawmat1 <- read.csv("4_8_16_merge_geneCounts_featureCounts_hisat2.txt",sep="\t",header=T)
 rawmat1 <- rawmat1[!duplicated(rawmat1[,1]),]
 rownames(rawmat1) <- rawmat1$X.id
@@ -104,7 +104,7 @@ rlog <- rlog(dds,blind=F)
 normat <- counts(dds,normalized=T)
 normat <- log2(counts(dds,normalized=T)+1)
 write.csv(normat,"rat_all_normat.txt",quote=F)
-
+ 
 
 ########################################
 #################### quality control
@@ -209,7 +209,7 @@ two_geneset_mean$treat <- str_sub(str_split_fixed(two_geneset_mean$name,"_",2)[,
 ggplot(data=two_geneset)+geom_jitter(aes(x=time,y=expr,group=treat,color=treat),alpha = 0.4 )+
   geom_line(data = two_geneset_mean , aes(x=time,y=expr,group=treat,color=treat),alpha = .8, size = 3)+
   facet_grid(. ~ cate) + gran_theme + theme(strip.text.x = element_text(size = 16)) +  scale_color_npg() 
-ggsave("2geneset_timescale_2.pdf",dpi=300)
+ggsave("2geneset_timescale_final_LP.pdf",dpi=300)
 ggsave("test_fat_inflam_timescale.pdf",dpi=300)
 
 ##############Wilcox.test of each stages.
