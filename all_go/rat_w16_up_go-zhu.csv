@@ -1,0 +1,14 @@
+﻿Category,Term,PValue,LogPvalue,dir
+GOTERM_BP_DIRECT,GO:0071347~cellular response to interleukin-1,6.88E-15,14.1621054,up
+GOTERM_BP_DIRECT,GO:0032496~response to lipopolysaccharide,9.38E-15,14.02759188,up
+GOTERM_BP_DIRECT,GO:0009612~response to mechanical stimulus,9.62E-15,14.01684231,up
+GOTERM_BP_DIRECT,GO:0006954~inflammatory response,5.07E-11,10.29508492,up
+GOTERM_BP_DIRECT,GO:0043065~positive regulation of apoptotic process,8.31E-11,10.08034264,up
+GOTERM_BP_DIRECT,GO:0006915~apoptotic process,1.57E-10,9.803315794,up
+GOTERM_BP_DIRECT,GO:0030593~neutrophil chemotaxis,6.00E-10,9.22159737,up
+GOTERM_BP_DIRECT,GO:0055114~oxidation-reduction process,8.08E-19,18.0926537,down
+GOTERM_BP_DIRECT,GO:0006631~fatty acid metabolic process,6.03E-07,6.21963181,down
+GOTERM_BP_DIRECT,GO:0008202~steroid metabolic process,1.38E-06,5.86076388,down
+GOTERM_BP_DIRECT,GO:0006641~triglyceride metabolic process,1.70E-06,5.77066495,down
+GOTERM_BP_DIRECT,GO:0008203~cholesterol metabolic process,1.43E-04,3.84329463,down
+GOTERM_BP_DIRECT,GO:0051384~response to glucocorticoid,1.89E-04,3.7234576,down

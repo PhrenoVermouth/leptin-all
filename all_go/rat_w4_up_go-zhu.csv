@@ -1,0 +1,9 @@
+﻿Category,Term,PValue,log,dir
+GOTERM_BP_DIRECT,GO:0009812~flavonoid metabolic process,9.60E-04,3.017733632,up
+GOTERM_BP_DIRECT,GO:0008202~steroid metabolic process,0.003855513,2.41391785,up
+GOTERM_BP_DIRECT,GO:0009395~phospholipid catabolic process,0.013495081,1.869824504,up
+GOTERM_BP_DIRECT,GO:0005978~glycogen biosynthetic process,0.013495081,1.869824504,up
+GOTERM_BP_DIRECT,GO:0046890~regulation of lipid biosynthetic process,0.029476276,1.530527381,up
+GOTERM_BP_DIRECT,GO:0007584~response to nutrient,3.55E-05,4.450034201,down
+GOTERM_BP_DIRECT,GO:0006629~lipid metabolic process,6.97E-04,3.156798746,down
+GOTERM_BP_DIRECT,GO:0051384~response to glucocorticoid,0.003063081,2.513841521,down

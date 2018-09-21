@@ -1,0 +1,27 @@
+INFO [2018-09-21 09:39:48] [[1]]
+INFO [2018-09-21 09:39:48] list(w4_up = A, w8_up = B, w16_up = C, w32_up = D, w48_up = E)
+INFO [2018-09-21 09:39:48] 
+INFO [2018-09-21 09:39:48] $filename
+INFO [2018-09-21 09:39:48] NULL
+INFO [2018-09-21 09:39:48] 
+INFO [2018-09-21 09:39:48] $lwd
+INFO [2018-09-21 09:39:48] [1] 1
+INFO [2018-09-21 09:39:48] 
+INFO [2018-09-21 09:39:48] $lty
+INFO [2018-09-21 09:39:48] [1] 1
+INFO [2018-09-21 09:39:48] 
+INFO [2018-09-21 09:39:48] $col
+INFO [2018-09-21 09:39:48] c("LightGray", "LightCyan", "Cyan", "DeepSkyBlue", "Green1")
+INFO [2018-09-21 09:39:48] 
+INFO [2018-09-21 09:39:48] $fill
+INFO [2018-09-21 09:39:48] c("LightGray", "LightCyan", "Cyan", "DeepSkyBlue", "Green1")
+INFO [2018-09-21 09:39:48] 
+INFO [2018-09-21 09:39:48] $cat.col
+INFO [2018-09-21 09:39:48] c("LightGray", "LightCyan", "Cyan", "DeepSkyBlue", "Green1")
+INFO [2018-09-21 09:39:48] 
+INFO [2018-09-21 09:39:48] $rotation.degree
+INFO [2018-09-21 09:39:48] [1] 0
+INFO [2018-09-21 09:39:48] 
+INFO [2018-09-21 09:39:48] $main
+INFO [2018-09-21 09:39:48] [1] "Up-regulated genes within timescale"
+INFO [2018-09-21 09:39:48] 

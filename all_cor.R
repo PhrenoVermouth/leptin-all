@@ -52,8 +52,10 @@ depict_point_plot <- function(expr_cols,high_list,low_list,pass_title){ ###Notic
 }
 
 david2gp <- function(csv,title_def) {
-  csv <- read.csv(csv,header = T,col.names = c("Cate","Desc.","Pvalue","LogPvalue"))
-  p <- ggplot(csv) + geom_bar(aes(x=reorder(Desc.,LogPvalue),y=LogPvalue),stat = "identity",fill="Magenta")+coord_flip()
+  csv <- read.csv(paste0("./all_go/",csv),header = T,col.names = c("Cate","Desc.","Pvalue","LogPvalue","dir"))
+  csv[which(csv$dir == "down"),]$LogPvalue <- -csv[which(csv$dir == "down"),]$LogPvalue
+  p <- ggplot(csv) + geom_bar(aes(x=reorder(Desc.,LogPvalue),y=LogPvalue,fill=dir),stat = "identity")+coord_flip()
+  p <- p + scale_fill_manual(values=c("Green1","red")) 
   p <- p + theme(panel.grid.major =element_blank(),
                  panel.grid.minor = element_blank(),
                  panel.background = element_blank(),
@@ -63,7 +65,7 @@ david2gp <- function(csv,title_def) {
                  axis.title.x = element_text(size = 14,  face = "bold"),
                  axis.title.y = element_text(size = 14, face = "bold"),
                  axis.ticks.y = element_blank()) +scale_y_continuous(expand = c(0, 0))+ xlab("Terms")+
-    labs(title=title_def)+ theme(plot.title = element_text(hjust = 0.5,size=14,face = "bold")) 
+    labs(title=title_def)+ theme(plot.title = element_text(hjust = 0.5,size=14,face = "bold"),legend.position="none") 
   return(p)
 }
 
@@ -103,7 +105,7 @@ rlog <- rlog(dds,blind=F)
 ##################Normalized matrix
 normat <- counts(dds,normalized=T)
 normat <- log2(counts(dds,normalized=T)+1)
-write.csv(normat,"rat_all_normat.txt",quote=F)
+write.csv(normat,"rat_all_normat.csv",quote=F)
  
 
 ########################################
@@ -483,4 +485,42 @@ ggsave("w48_免疫衰老.pdf",dpi=300,width = 8,height = 3)
 # #pheatmap(mean_scale_normat[as.character(ann_row[which(ann_row$cluster == "Cluster2"),]$gene),grep("KO",colnames(mean_scale_normat))],cluster_cols = F,show_rownames = F)
 # pheatmap(mean_scale_normat[high_cor,grep("WT",colnames(mean_scale_normat))],cluster_cols = F,show_rownames = F)
 # 
-# 
+
+
+install.packages("VennDiagram")
+library(grid)
+library(VennDiagram)
+A = c(diff_w4_up)
+B = c(diff_w8_up)
+C = c(diff_w16_up)
+D = c(diff_w32_up)
+E = c(diff_w48_up)
+D1<-venn.diagram(list(w4_up=A,w8_up=B,w16_up=C,w32_up=D,w48_up=E),filename=NULL,lwd=1,lty=1,col=c("LightGray","LightCyan","Cyan","DeepSkyBlue","Green1"),
+                 fill=c("LightGray","LightCyan","Cyan","DeepSkyBlue","Green1"),cat.col=c("LightGray","LightCyan","Cyan","DeepSkyBlue","Green1"),rotation.degree=0,
+                 main = "Up-regulated genes within timescale")
+grid.draw(D1)
+
+A = c(diff_w4_down)
+B = c(diff_w8_down)
+C = c(diff_w16_down)
+D = c(diff_w32_down)
+E = c(diff_w48_down)
+D1<-venn.diagram(list(w4_down=A,w8_down=B,w16_down=C,w32_down=D,w48_down=E),filename=NULL,lwd=1,lty=1,col=c("LightGray","LightCyan","Cyan","DeepSkyBlue","Green1"),
+                 fill=c("LightGray","LightCyan","Cyan","DeepSkyBlue","Green1"),cat.col=c("LightGray","LightCyan","Cyan","DeepSkyBlue","Green1"),rotation.degree=0,
+                 main = "down-regulated genes within timescale")
+grid.draw(D1)
+
+
+
+
+
+david2gp("rat_w4_up_go-zhu.csv","W4_diff_genes_go")
+ggsave("rat_w4_go.pdf",dpi=300,width = 8,height = 3)
+david2gp("rat_w8_up_go-zhu.csv","W8_diff_genes_go")
+ggsave("rat_w8_go.pdf",dpi=300,width = 8,height = 3)
+david2gp("rat_w16_up_go-zhu.csv","W16_diff_genes_go")
+ggsave("rat_w16_go.pdf",dpi=300,width = 8,height = 3)
+david2gp("rat_w32_up_go-zhu.csv","W32_diff_genes_go")
+ggsave("rat_w32_go.pdf",dpi=300,width = 8,height = 3)
+david2gp("rat_w48_up_go-zhu.csv","W48_diff_genes_go")
+ggsave("rat_w48_go.pdf",dpi=300,width = 8,height = 3)
