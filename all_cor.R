@@ -172,15 +172,15 @@ mean_normat <- mean_normat[,-1][,c("W4_WT","W8_WT","W16_WT","W32_WT","W48_WT","W
 inflam_normat <- mean_normat[which(rownames(mean_normat) %in% de_genes),]
 inflam_normat <- inflam_normat[which(rownames(inflam_normat) %in% inflam_geneset),]
 inflam_normat <- t(apply(inflam_normat,1, function(x) (x-mean(x))/sd(x)))
-a = pheatmap(inflam_normat,cluster_cols = F,cluster_rows = F,border_color = NA,legend = F) 
-ggsave("inflam_geneset_heatmap.pdf",a$gtable,dpi=300,width = 3,height = 6)
+a = pheatmap(inflam_normat,cluster_cols = F,cluster_rows = F,border_color = NA,legend = F,fontsize_row =6,fontsize_col =8) 
+ggsave("inflam_geneset_heatmap.pdf",a$gtable,dpi=300,width = 3,height = 4)
 
 fat_normat <- mean_normat[which(rownames(mean_normat) %in% de_genes),]
 fat_normat <- fat_normat[which(rownames(fat_normat) %in% fat_geneset),]
 fat_normat <- t(apply(fat_normat,1, function(x) (x-mean(x))/sd(x)))
-a=pheatmap(fat_normat,cluster_cols = F,cluster_rows = F,border_color = NA,legend = F)
+a=pheatmap(fat_normat,cluster_cols = F,cluster_rows = F,border_color = NA,legend = F,fontsize_row =6,fontsize_col =8)
 #ggsave("fat_geneset_heatmap.png"",a$gtable,dpi=300,width = 3,height = 6)
-ggsave("fat_geneset_heatmap.pdf",a$gtable,dpi=300,width = 3,height = 6)
+ggsave("fat_geneset_heatmap.pdf",a$gtable,dpi=300,width = 3,height = 5)
 
 ############# Data cleaning.
 
@@ -197,6 +197,7 @@ two_geneset<-melt(
 )
 two_geneset$time <- factor(str_split_fixed(two_geneset$name,"_",2)[,1],levels = c("W4","W8","W16","W32","W48"))
 two_geneset$treat <- str_sub(str_split_fixed(two_geneset$name,"_",2)[,2],1,2)
+
 
 ###############################################
 ################################ Mean_dataframe

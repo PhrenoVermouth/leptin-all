@@ -1,0 +1,12 @@
+大鼠w16 ∩ nash
+"Ackr2"    "Aebp1"    "Amdhd1"   "Apof"     "Arrdc4"   "Atf3"     "Col1a1"   "Cxcr4"    "Dpysl2"   "Fabp4"   "Fasn"     "Fat1"     "Fgf21"    "Galnt18"  "Gem"      "Gins2"    "Gpnmb"    "Gpr183"   "H2afy2"   "Hal"      "Hbegf"    "Hsd17b11" "Igf1"     "Igfbp2"   "Inhbe"    "Kntc1"    "Lcp1"     "Lpl"      "Mcm2"     "Mcm5"     "Pla2g7"   "Plaur"    "Ptger4"   "Rgs1"     "Rgs2"     "Sgcb"     "Slc16a4"  "Spp1"     "Stxbp1"   "Thy1"    
+"Vcan"     "Zdhhc2"
+
+小鼠MCD8  ∩ nash
+"Abcb11"  "Atf3"    "Cd83"    "Cyp7a1"  "Cytip"   "Golm1"   "Gpnmb"   "Hal"     "Hsd17b7" "Igf1"    "Lpl"    "Lrg1"    "Mcm2"    "Mcm5"    "Ppm1k"   "Rgs1"    "Spp1"   
+
+上述两者交集
+"Atf3"  "Gpnmb" "Hal"   "Igf1"  "Lpl"   "Mcm2"  "Mcm5"  "Rgs1"  "Spp1" 
+
+猴子  ∩ nash
+"Fasn"    "Hal"     "Kcnj3"   "P4ha1"   "Slc16a7"
