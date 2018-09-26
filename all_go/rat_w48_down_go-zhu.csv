@@ -1,0 +1,6 @@
+Category,Term,PValue,LogPvalue,dir
+GOTERM_BP_DIRECT,GO:0006810~transport,7.47E-05,4.12663144,down
+GOTERM_BP_DIRECT,GO:0001561~fatty acid alpha-oxidation,7.73E-04,3.11197677,down
+GOTERM_BP_DIRECT,GO:0035356~cellular triglyceride homeostasis,0.00160381,2.79484611,down
+GOTERM_BP_DIRECT,GO:0042632~cholesterol homeostasis,0.01937618,1.71273193,down
+GOTERM_BP_DIRECT,GO:0030522~intracellular receptor signaling pathway,0.03467953,1.45992684,down

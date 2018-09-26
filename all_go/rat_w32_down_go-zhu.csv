@@ -1,0 +1,6 @@
+Category,Term,PValue,LogPvalue,dir
+GOTERM_BP_DIRECT,GO:0006631~fatty acid metabolic process,1.78E-07,6.75059996,down
+GOTERM_BP_DIRECT,GO:0051384~response to glucocorticoid,2.33E-07,6.63311478,down
+GOTERM_BP_DIRECT,GO:0032869~cellular response to insulin stimulus,2.01E-05,4.69683184,down
+GOTERM_BP_DIRECT,GO:0015721~bile acid and bile salt transport,1.03E-04,3.98659313,down
+GOTERM_BP_DIRECT,GO:0032496~response to lipopolysaccharide,1.92E-04,3.71689836,down

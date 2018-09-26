@@ -5,8 +5,3 @@ GOTERM_BP_DIRECT,GO:0001523~retinoid metabolic process,3.79E-04,3.421732778,up
 GOTERM_BP_DIRECT,GO:0006749~glutathione metabolic process,4.49E-04,3.347884235,up
 GOTERM_BP_DIRECT,GO:0008202~steroid metabolic process,6.25E-04,3.204067931,up
 GOTERM_BP_DIRECT,GO:0042573~retinoic acid metabolic process,9.29E-04,3.03184673,up
-GOTERM_BP_DIRECT,GO:0009611~response to wounding,0.004257152,2.37088082,down
-GOTERM_BP_DIRECT,GO:0071333~cellular response to glucose stimulus,0.006210609,2.206865811,down
-GOTERM_BP_DIRECT,GO:0042632~cholesterol homeostasis,0.015689812,1.804382272,down
-GOTERM_BP_DIRECT,GO:0033344~cholesterol efflux,0.020553787,1.687108144,down
-GOTERM_BP_DIRECT,GO:0007584~response to nutrient,0.026511102,1.576572213,down

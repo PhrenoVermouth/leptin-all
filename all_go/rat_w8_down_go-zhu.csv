@@ -1,0 +1,6 @@
+Category,Term,PValue,LogPvalue,dir
+GOTERM_BP_DIRECT,GO:0009611~response to wounding,0.004257152,2.37088082,down
+GOTERM_BP_DIRECT,GO:0071333~cellular response to glucose stimulus,0.006210609,2.206865811,down
+GOTERM_BP_DIRECT,GO:0042632~cholesterol homeostasis,0.015689812,1.804382272,down
+GOTERM_BP_DIRECT,GO:0033344~cholesterol efflux,0.020553787,1.687108144,down
+GOTERM_BP_DIRECT,GO:0007584~response to nutrient,0.026511102,1.576572213,down
