@@ -1,0 +1,6 @@
+,diff_w4_down,diff_w8_down,diff_w16_down,diff_w32_down,diff_w48_down
+diff_w4_down,88,36,39,29,16
+diff_w8_down,36,165,115,79,52
+diff_w16_down,39,115,956,416,107
+diff_w32_down,29,79,416,874,89
+diff_w48_down,16,52,107,89,181
