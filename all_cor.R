@@ -1,4 +1,4 @@
-setwd("/Volumes/Mac_Workplace/Mac_WorkSpace/leptin/all")
+setwd("/Volumes/Mac_Workplace/Mac_workspace/leptin/all")
 library(DESeq2)
 library(ggplot2)
 library(reshape2)
@@ -71,6 +71,7 @@ david2gp <- function(csv,title_def) {
 #################### Set-up 
 ########################################
 inflam_geneset <- as.character(read.csv("positive_regulation_of_inflammatory_response.txt",col.names = "V1")$V1)
+fat_geneset <- as.character(read.csv("fat_geneset_LP.csv",col.names = "V1")$V1)
 fat_geneset <- as.character(read.csv("fatty_acid_biosynthetic_process.txt",col.names = "V1")$V1)
 rawmat1 <- read.csv("4_8_16_merge_geneCounts_featureCounts_hisat2.txt",sep="\t",header=T)
 rawmat1 <- rawmat1[!duplicated(rawmat1[,1]),]
@@ -119,7 +120,7 @@ pca_result$treat <- factor(pca_result$treat,levels = c("treated","untreated"))
 pca_result$type <- factor(pca_result$type,levels = c("W4","W8","W16","W32","W48"))
 p<-ggplot(pca_result)+geom_point(aes(x=pca_result[,1],y=pca_result[,2],color=pca_result$type,shape = pca_result$treat),size=5)
 p<-p+gran_theme+theme(legend.title =element_blank())+labs(x="PC1: 21 % variance",y="PC2: 18 % variance")
-p + scale_color_manual(values=c("LightGray","LightCyan","Cyan","DeepSkyBlue","Green1")) 
+p + scale_color_manual(values=c("LightGray","Cyan","Blue","magenta","red")) 
 ggsave("newdata_all_PCA_newcol.pdf",dpi=300)
 
 # library(scatterplot3d)
@@ -177,11 +178,13 @@ ggsave("inflam_geneset_heatmap.pdf",a$gtable,dpi=300,width = 3,height = 4)
 
 fat_normat <- mean_normat[which(rownames(mean_normat) %in% de_genes),]
 fat_normat <- fat_normat[which(rownames(fat_normat) %in% fat_geneset),]
+#fat_normat <- mean_normat  ##### For specific genes picked by LU.
+#fat_normat <- mean_normat[which(rownames(mean_normat) %in% fat_geneset),]
 fat_normat <- t(apply(fat_normat,1, function(x) (x-mean(x))/sd(x)))
 a=pheatmap(fat_normat,cluster_cols = F,cluster_rows = F,border_color = NA,legend = F,fontsize_row =6,fontsize_col =8)
-#ggsave("fat_geneset_heatmap.png"",a$gtable,dpi=300,width = 3,height = 6)
+#a=pheatmap(fat_normat[,c(6:10)]-fat_normat[,c(1:5)],cluster_cols = F,border_color = NA,legend = F,fontsize_row =6,fontsize_col =8)
 ggsave("fat_geneset_heatmap.pdf",a$gtable,dpi=300,width = 3,height = 5)
-
+ggsave("zhu_want_fig2f_heatmap.pdf",a$gtable,dpi=300,width = 3,height = 3)
 ############# Data cleaning.
 
 two_geneset <- as.data.frame(rbind(inflam_normat,fat_normat))
@@ -569,7 +572,7 @@ ggsave("w48_免疫衰老.pdf",dpi=300,width = 8,height = 3)
 
 
 ################## Vennplot for intersection.
-install.packages("VennDiagram")
+#install.packages("VennDiagram")
 library(grid)
 library(VennDiagram)
 A = c(diff_w4_up)
@@ -577,8 +580,8 @@ B = c(diff_w8_up)
 C = c(diff_w16_up)
 D = c(diff_w32_up)
 E = c(diff_w48_up)
-D1<-venn.diagram(list(w4_up=A,w8_up=B,w16_up=C,w32_up=D,w48_up=E),filename=NULL,lwd=1,lty=1,col=c("LightGray","LightCyan","Cyan","DeepSkyBlue","Green1"),
-                 fill=c("LightGray","LightCyan","Cyan","DeepSkyBlue","Green1"),cat.col=c("LightGray","LightCyan","Cyan","DeepSkyBlue","Green1"),rotation.degree=0,
+D1<-venn.diagram(list(w4_up=A,w8_up=B,w16_up=C,w32_up=D,w48_up=E),filename=NULL,lwd=1,lty=1,col=c("LightGray","Cyan","Blue","magenta","red"),
+                 fill=c("LightGray","Cyan","Blue","magenta","red"),rotation.degree=0,
                  main = "Up-regulated genes within timescale")
 grid.draw(D1)
 
@@ -601,8 +604,8 @@ B = c(diff_w8_down)
 C = c(diff_w16_down)
 D = c(diff_w32_down)
 E = c(diff_w48_down)
-D1<-venn.diagram(list(w4_down=A,w8_down=B,w16_down=C,w32_down=D,w48_down=E),filename=NULL,lwd=1,lty=1,col=c("LightGray","LightCyan","Cyan","DeepSkyBlue","Green1"),
-                 fill=c("LightGray","LightCyan","Cyan","DeepSkyBlue","Green1"),cat.col=c("LightGray","LightCyan","Cyan","DeepSkyBlue","Green1"),rotation.degree=0,
+D1<-venn.diagram(list(w4=A,w8=B,w16=C,w32=D,w48=E),filename=NULL,lwd=1,lty=1,col=c("LightGray","Cyan","Blue","magenta","red"),
+                 fill=c("LightGray","Cyan","Blue","magenta","red"),rotation.degree=0,
                  main = "down-regulated genes within timescale")
 grid.draw(D1)
 
@@ -626,29 +629,48 @@ write.csv(result_mat,"down_venn_to_matrix.csv",quote=F)
 ######################################
 ############### Individial codes
 ######################################
+#"LightGray","Cyan","Blue","magenta","red"
+david2gp <- function(csv,title_def) {
+  csv <- read.csv(paste0("./all_go/",csv),header = T,col.names = c("Cate","Desc.","Pvalue","LogPvalue","dir"))
+  csv$Desc. <- str_split_fixed(csv$Desc.,"~",2)[,2]
+  p <- ggplot(csv,aes(x=reorder(Desc.,LogPvalue),y=LogPvalue)) + 
+    geom_bar(stat = "identity",fill="LightGray", width = 0.6)+coord_flip()
+  p <- p + theme(panel.grid.major =element_blank(),
+                 panel.grid.minor = element_blank(),
+                 panel.background = element_blank(),
+                 text = element_text(),
+                 legend.text = element_text(size=1),
+                 axis.text = element_text(size=10),
+                 axis.line.x = element_line(colour = "black"),
+                 axis.title.x = element_text(size = 10,  face = "bold"),
+                 axis.title.y = element_text(size = 10, face = "bold"),
+                 axis.ticks.y = element_blank()) + scale_y_continuous(expand = c(0, 0))+ xlab("Terms")+
+    labs(title=title_def)+ theme(plot.title = element_text(hjust = 0.5,size=10,face = "bold")) 
+  return(p)
+}
 
 david2gp("rat_w4_up_go-zhu.csv","W4_up_genes_go")
-ggsave("rat_w4_up_go.pdf",dpi=300,width = 8,height = 3)
+ggsave("rat_w4_up_go.pdf",dpi=300,width = 8,height = 2)
 david2gp("rat_w8_up_go-zhu.csv","W8_up_genes_go")
-ggsave("rat_w8_up_go.pdf",dpi=300,width = 8,height = 3)
+ggsave("rat_w8_up_go.pdf",dpi=300,width = 8,height = 2.2)
 david2gp("rat_w16_up_go-zhu.csv","W16_up_genes_go")
-ggsave("rat_w16_up_go.pdf",dpi=300,width = 8,height = 4)
+ggsave("rat_w16_up_go.pdf",dpi=300,width = 8,height = 2.4)
 david2gp("rat_w32_up_go-zhu.csv","W32_up_genes_go")
-ggsave("rat_w32_up_go.pdf",dpi=300,width = 8,height = 3.5)
+ggsave("rat_w32_up_go.pdf",dpi=300,width = 8,height = 2.2)
 david2gp("rat_w48_up_go-zhu.csv","W48_up_genes_go")
-ggsave("rat_w48_up_go.pdf",dpi=300,width = 8,height = 3.5)
+ggsave("rat_w48_up_go.pdf",dpi=300,width = 8,height = 2.4)
 
 
 david2gp("rat_w4_down_go-zhu.csv","W4_down_genes_go")
-ggsave("rat_w4_down_go.pdf",dpi=300,width = 8,height = 2)
+ggsave("rat_w4_down_go.pdf",dpi=300,width = 8,height = 1.6)
 david2gp("rat_w8_down_go-zhu.csv","W8_down_genes_go")
-ggsave("rat_w8_down_go.pdf",dpi=300,width = 8,height = 3)
+ggsave("rat_w8_down_go.pdf",dpi=300,width = 8,height = 2)
 david2gp("rat_w16_down_go-zhu.csv","W16_down_genes_go")
-ggsave("rat_w16_down_go.pdf",dpi=300,width = 8,height = 3.5)
+ggsave("rat_w16_down_go.pdf",dpi=300,width = 8,height = 2.2)
 david2gp("rat_w32_down_go-zhu.csv","W32_down_genes_go")
-ggsave("rat_w32_down_go.pdf",dpi=300,width = 8,height = 3)
+ggsave("rat_w32_down_go.pdf",dpi=300,width = 8,height = 2)
 david2gp("rat_w48_down_go-zhu.csv","W48_down_genes_go")
-ggsave("rat_w48_down_go.pdf",dpi=300,width = 8,height = 3)
+ggsave("rat_w48_down_go.pdf",dpi=300,width = 8,height = 2)
 
 diff_w4 <- data.frame(gene=c(diff_w4_up,diff_w4_down),property=rep(c("up","down"),c(length(diff_w4_up),length(diff_w4_down))))
 write.csv(diff_w4,"diff_w4.csv",quote = F)
