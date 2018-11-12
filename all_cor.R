@@ -174,7 +174,11 @@ inflam_normat <- mean_normat[which(rownames(mean_normat) %in% de_genes),]
 inflam_normat <- inflam_normat[which(rownames(inflam_normat) %in% inflam_geneset),]
 inflam_normat <- t(apply(inflam_normat,1, function(x) (x-mean(x))/sd(x)))
 a = pheatmap(inflam_normat,cluster_cols = F,cluster_rows = F,border_color = NA,legend = F,fontsize_row =6,fontsize_col =8) 
+#temp = inflam_normat[,c(6:10)]-inflam_normat[,c(1:5)]
+#a = pheatmap(temp,cluster_cols = F,border_color = NA,legend = F,fontsize_row =6,fontsize_col =8)
+#a=pheatmap(temp[which(cutree(a$tree_row,2) == "1",),],cluster_cols = F,border_color = NA,legend = F,fontsize_row =6,fontsize_col =8)
 ggsave("inflam_geneset_heatmap.pdf",a$gtable,dpi=300,width = 3,height = 4)
+#ggsave("zhu_want_fig3a_heatmap.pdf",a$gtable,dpi=300,width = 3,height = 4)
 
 fat_normat <- mean_normat[which(rownames(mean_normat) %in% de_genes),]
 fat_normat <- fat_normat[which(rownames(fat_normat) %in% fat_geneset),]
