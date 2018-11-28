@@ -105,7 +105,7 @@ rlog <- rlog(dds,blind=F)
 normat <- counts(dds,normalized=T)
 normat <- log2(counts(dds,normalized=T)+1)
 write.csv(normat,"rat_all_normat.csv",quote=F)
- 
+normat <- read.csv("rat_all_normat.txt",header=T,row.names = 1)
 
 ########################################
 #################### quality control
@@ -628,6 +628,14 @@ write.csv(result_mat,"down_venn_to_matrix.csv",quote=F)
 
 
 
+############################################################
+############################### Related to clinical target
+############################################################
+clinical_target <- read.csv("target_clinical.csv",header=F)
+clinical_target_mean <- na.omit(mean_normat[as.character(clinical_target$V1),])
+temp = clinical_target_mean[,c(6:10)]-clinical_target_mean[,c(1:5)]
+a = pheatmap(temp,cluster_cols = F,border_color = NA,legend = F,fontsize_row =6,fontsize_col =8)
+ggsave("clinical_heatmap.pdf",a$gtable,dpi=300,width = 3,height = 4)
 
 
 ######################################
@@ -686,3 +694,4 @@ diff_w32 <- data.frame(gene=c(diff_w32_up,diff_w32_down),property=rep(c("up","do
 write.csv(diff_w32,"diff_w32.csv",quote = F)
 diff_w48 <- data.frame(gene=c(diff_w48_up,diff_w48_down),property=rep(c("up","down"),c(length(diff_w48_up),length(diff_w48_down))))
 write.csv(diff_w48,"diff_w48.csv",quote = F)
+
