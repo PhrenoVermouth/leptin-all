@@ -71,7 +71,7 @@ david2gp <- function(csv,title_def) {
 #################### Set-up 
 ########################################
 inflam_geneset <- as.character(read.csv("positive_regulation_of_inflammatory_response.txt",col.names = "V1")$V1)
-fat_geneset <- as.character(read.csv("fat_geneset_LP.csv",col.names = "V1")$V1)
+#fat_geneset <- as.character(read.csv("fat_geneset_LP.csv",col.names = "V1")$V1) Fig2F
 fat_geneset <- as.character(read.csv("fatty_acid_biosynthetic_process.txt",col.names = "V1")$V1)
 rawmat1 <- read.csv("4_8_16_merge_geneCounts_featureCounts_hisat2.txt",sep="\t",header=T)
 rawmat1 <- rawmat1[!duplicated(rawmat1[,1]),]
@@ -105,7 +105,7 @@ rlog <- rlog(dds,blind=F)
 normat <- counts(dds,normalized=T)
 normat <- log2(counts(dds,normalized=T)+1)
 write.csv(normat,"rat_all_normat.csv",quote=F)
-normat <- read.csv("rat_all_normat.txt",header=T,row.names = 1)
+#normat <- read.csv("rat_all_normat.txt",header=T,row.names = 1)
 
 ########################################
 #################### quality control
@@ -174,19 +174,19 @@ inflam_normat <- mean_normat[which(rownames(mean_normat) %in% de_genes),]
 inflam_normat <- inflam_normat[which(rownames(inflam_normat) %in% inflam_geneset),]
 inflam_normat <- t(apply(inflam_normat,1, function(x) (x-mean(x))/sd(x)))
 a = pheatmap(inflam_normat,cluster_cols = F,cluster_rows = F,border_color = NA,legend = F,fontsize_row =6,fontsize_col =8) 
-#temp = inflam_normat[,c(6:10)]-inflam_normat[,c(1:5)]
+temp = inflam_normat[,c(6:10)]-inflam_normat[,c(1:5)]
 #a = pheatmap(temp,cluster_cols = F,border_color = NA,legend = F,fontsize_row =6,fontsize_col =8)
-#a=pheatmap(temp[which(cutree(a$tree_row,2) == "1",),],cluster_cols = F,border_color = NA,legend = F,fontsize_row =6,fontsize_col =8)
+#a=pheatmap(temp[which(cutree(a$tree_row,2) == "1",),],cluster_cols = F,border_color = NA,fontsize_row =6,fontsize_col =8)
 ggsave("inflam_geneset_heatmap.pdf",a$gtable,dpi=300,width = 3,height = 4)
 #ggsave("zhu_want_fig3a_heatmap.pdf",a$gtable,dpi=300,width = 3,height = 4)
 
 fat_normat <- mean_normat[which(rownames(mean_normat) %in% de_genes),]
 fat_normat <- fat_normat[which(rownames(fat_normat) %in% fat_geneset),]
-#fat_normat <- mean_normat  ##### For specific genes picked by LU.
-#fat_normat <- mean_normat[which(rownames(mean_normat) %in% fat_geneset),]
+#fat_normat <- mean_normat  ##### For specific genes picked by LU. fig2f
+#fat_normat <- mean_normat[which(rownames(mean_normat) %in% fat_geneset),] ## fig2f
 fat_normat <- t(apply(fat_normat,1, function(x) (x-mean(x))/sd(x)))
 a=pheatmap(fat_normat,cluster_cols = F,cluster_rows = F,border_color = NA,legend = F,fontsize_row =6,fontsize_col =8)
-#a=pheatmap(fat_normat[,c(6:10)]-fat_normat[,c(1:5)],cluster_cols = F,border_color = NA,legend = F,fontsize_row =6,fontsize_col =8)
+a=pheatmap(fat_normat[,c(6:10)]-fat_normat[,c(1:5)],cluster_cols = F,border_color = NA,fontsize_row =6,fontsize_col =8) #fig2f
 ggsave("fat_geneset_heatmap.pdf",a$gtable,dpi=300,width = 3,height = 5)
 ggsave("zhu_want_fig2f_heatmap.pdf",a$gtable,dpi=300,width = 3,height = 3)
 ############# Data cleaning.
@@ -634,7 +634,7 @@ write.csv(result_mat,"down_venn_to_matrix.csv",quote=F)
 clinical_target <- read.csv("target_clinical.csv",header=F)
 clinical_target_mean <- na.omit(mean_normat[as.character(clinical_target$V1),])
 temp = clinical_target_mean[,c(6:10)]-clinical_target_mean[,c(1:5)]
-a = pheatmap(temp,cluster_cols = F,border_color = NA,legend = F,fontsize_row =6,fontsize_col =8)
+a = pheatmap(temp,breaks = c(seq(-2, 0, length.out = 50) ,seq(0.1, 5.5, length.out = 50) ),color= colorRampPalette(c("blue", "white", "red"))(100),cluster_cols = F,border_color = NA,fontsize_row =6,fontsize_col =8)
 ggsave("clinical_heatmap.pdf",a$gtable,dpi=300,width = 3,height = 4)
 
 
